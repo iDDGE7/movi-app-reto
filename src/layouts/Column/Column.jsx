@@ -5,7 +5,7 @@ import { colors } from "constants/colors";
 
 const { xs, sm, md, lg } = dimentions;
 
-const Column = styled.article`
+const Column = styled.div`
     display: ${prop("dp", "flex")};
     flex-direction: ${prop("fd", "column")};
     justify-content: ${prop("jc", "flex-start")};
@@ -23,11 +23,6 @@ const Column = styled.article`
 
     ${marginResponsive()};
     ${paddingResponsive()};
-    /* padding: ${prop("pd", "1em")};
-    padding-left: ${ifProp("pl", prop("pl", "1em"))};
-    padding-right: ${ifProp("pr", prop("pr", "1em"))};
-    padding-top: ${ifProp("pt", prop("pt", "1em"))};
-    padding-bottom: ${ifProp("pb", prop("pb", "1em"))}; */
 
     @media (max-width: ${lg}px) {
         ${marginResponsive(lg, "lg")};

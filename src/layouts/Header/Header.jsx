@@ -6,7 +6,7 @@ import darkLogo from "assets/darkLogo.svg";
 
 const Header = ({ theme = "light", navlinks, ...props }) => {
     return (
-        <HeaderContainer {...props}>
+        <HeaderContainer pd="1em" {...props}>
             <LogoHeader src={theme === "dark" ? lightLogo : darkLogo} />
 
             {navlinks && (

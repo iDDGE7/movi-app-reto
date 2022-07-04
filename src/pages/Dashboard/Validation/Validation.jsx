@@ -18,9 +18,6 @@ const Validation = () => {
         }
     }, [dataField]);
 
-    const onSubmitForm = (e) => {
-        e.preventDefault();
-    };
 
     const getDataField = ({ name, value }) => {
         setDataField({ ...dataField, [name]: value });

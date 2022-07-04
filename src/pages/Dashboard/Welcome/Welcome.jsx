@@ -11,10 +11,6 @@ const Welcome = () => {
     const navigate = useNavigate();
     const navLinks = [{ path: "/login", label: "Iniciar sesión" }];
 
-    const onSubmitForm = (e) => {
-        e.preventDefault();
-    };
-
     return (
         <Row bc="primaryBlue" mn-hg="100vh" pos="relative" pd="initial" of-x="hidden">
             <Image

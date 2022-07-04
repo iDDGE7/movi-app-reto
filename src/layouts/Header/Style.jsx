@@ -1,11 +1,11 @@
-import styled, { css } from "styled-components";
+import styled  from "styled-components";
 import { prop, ifProp, switchProp } from "styled-tools";
 import { dimentions, marginResponsive, paddingResponsive } from "constants/spaces";
 import { colors } from "constants/colors";
 import { Link } from "components";
 const { xs, sm, md, lg } = dimentions;
 
-const HeaderContainer = styled.article`
+const HeaderContainer = styled.header`
     display: ${prop("dp", "flex")};
     flex-direction: ${prop("fd", "row")};
     justify-content: ${prop("jc", "space-between")};
@@ -20,12 +20,7 @@ const HeaderContainer = styled.article`
     background: ${switchProp(prop("bc", "transparent"), colors, prop("bc", "transparent"))};
 
     ${marginResponsive()};
-    padding: ${prop("pd", "1em")};
-    padding-left: ${ifProp("pl", prop("pl", "1em"))};
-    padding-right: ${ifProp("pr", prop("pr", "1em"))};
-    padding-top: ${ifProp("pt", prop("pt", "1em"))};
-    padding-bottom: ${ifProp("pb", prop("pb", "1em"))};
-
+    ${paddingResponsive()};
     @media (max-width: ${lg}px) {
         ${marginResponsive(lg, "lg")};
         ${paddingResponsive(lg, "lg")};

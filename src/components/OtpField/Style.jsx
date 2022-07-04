@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { ifProp } from "styled-tools";
 import { dimentions, marginResponsive, paddingResponsive } from "constants/spaces";
 import { colors } from "constants/colors";
-const { primaryBlue, primaryGreen, greysLight, neutralWhite } = colors;
+const { primaryBlue, greysLight, neutralWhite } = colors;
 const { xs, sm, md, lg } = dimentions;
 
 const WrapperOtpField = styled.form`

@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { prop, ifProp, switchProp } from "styled-tools";
 import { dimentions, marginResponsive, paddingResponsive } from "constants/spaces";
 import { colors } from "constants/colors";
@@ -31,11 +31,7 @@ const Row = styled.article`
     box-shadow: ${ifProp("b-shadow", prop("b-shadow", "initial"))};
 
     ${marginResponsive()};
-    padding: ${ifProp("pd", prop("pd", "1em"))};
-    padding-left: ${ifProp("pl", prop("pl", "1em"))};
-    padding-right: ${ifProp("pr", prop("pr", "1em"))};
-    padding-top: ${ifProp("pt", prop("pt", "1em"))};
-    padding-bottom: ${ifProp("pb", prop("pb", "1em"))};
+    ${paddingResponsive()};
 
     @media (max-width: ${lg}px) {
         ${marginResponsive(lg, "lg")};

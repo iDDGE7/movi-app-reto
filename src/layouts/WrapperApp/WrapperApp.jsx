@@ -13,7 +13,7 @@ const WrapperApp = styled.div`
     flex-wrap: ${ifProp("f-wrap", prop("f-wrap", "nowrap"))};
     flex-grow: ${ifProp("f-grow", prop("f-grow", "1"))};
 
-    width: ${prop("wd", "100vw")};
+    width: ${prop("wd", "100%")};
     height: ${ifProp("hg", prop("hg", "100vh"))};
     min-height: ${prop("mn-hg", "100vh")};
     overflow: ${ifProp("of", prop("of", "initial"))};
