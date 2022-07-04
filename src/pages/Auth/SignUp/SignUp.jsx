@@ -29,7 +29,7 @@ const SignUp = () => {
     };
 
     return (
-        <Row mn-hg="100%">
+        <Row mn-hg="100vh">
             <Column wd="50%" wd-md="100%" pos="relative">
                 <Header navlinks={navLinks} mb="5em" mb-sm="3em"></Header>
                 <Title text-align="center" mb="16px">
