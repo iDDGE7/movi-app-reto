@@ -1,0 +1,11 @@
+<svg width="722" height="722" viewBox="0 0 722 722" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<rect y="6.10352e-05" width="2.52448" height="108.552" fill="#BEBEBE"/>
+	<rect y="2.52463" width="2.52448" height="108.552" transform="rotate(-90 0 2.52463)" fill="#BEBEBE"/>
+	<rect x="722" width="2.52448" height="108.552" transform="rotate(90 722 0)" fill="#BEBEBE"/>
+	<rect x="719.475" width="2.52448" height="108.552" fill="#BEBEBE"/>
+	<rect width="2.52448" height="108.552" transform="matrix(1 0 0 -1 0 722)" fill="#BEBEBE"/>
+	<rect width="2.52448" height="108.552" transform="matrix(0 1 1 0 0 719.476)" fill="#BEBEBE"/>
+	<rect width="2.52448" height="108.552" transform="matrix(0 -1 -1 0 722 722)" fill="#BEBEBE"/>
+	<rect width="2.52448" height="108.552" transform="matrix(1 0 0 -1 719.475 722)" fill="#BEBEBE"/>
+	</svg>
+	

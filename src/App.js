@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import React from "react";
+import { WrapperApp } from "layouts";
+import { SignUp, SignIn, OTP, Welcome, Validation } from "pages";
+import { Routes, Route } from "react-router-dom";
+const App = () => {
+    return (
+        <WrapperApp>
+            <Routes>
+                <Route path="/login" element={<SignIn />} />
+                <Route path="/numberConfirmation" element={<OTP />} />
+                <Route path="/welcome" element={<Welcome />} />
+                <Route path="/validation" element={<Validation />} />
+                <Route path="/" element={<SignUp />} />
+            </Routes>
+        </WrapperApp>
+    );
+};
 
 export default App;
