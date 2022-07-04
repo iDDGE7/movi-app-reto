@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { WrapperField, Input, Label, ClearButton, ShowPasswordButton, InputMessage } from "./Style";
+import { useState } from "react";
+import { WrapperField, Input, Label, ShowPasswordButton, InputMessage } from "./Style";
 
 const Field = ({ type = "text", label, name, autoComplete = "off", getDataField, message, autoFocus, ...props }) => {
     const [value, setValue] = useState("");

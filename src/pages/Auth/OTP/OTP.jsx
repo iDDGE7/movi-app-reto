@@ -37,7 +37,7 @@ const OTP = () => {
                     Reenviar código
                 </Link>
 
-                <Button disabled={!validatedForm} onClick={() => navigate("/welcome")}>
+                <Button mb="5em" disabled={!validatedForm} onClick={() => navigate("/welcome")}>
                     Crear cuenta
                 </Button>
 

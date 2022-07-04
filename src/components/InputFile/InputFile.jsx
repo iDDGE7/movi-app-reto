@@ -31,6 +31,7 @@ const InputFile = ({ type = "image", name, label, getDataField }) => {
         if (file && type === "camera") {
             getDataField({ name, value: file });
         }
+        // eslint-disable-next-line
     }, [file]);
 
     const handleClickButton = (e) => {

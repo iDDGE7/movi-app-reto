@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { prop, ifProp, switchProp } from "styled-tools";
+import { prop, ifProp } from "styled-tools";
 import { dimentions, marginResponsive, paddingResponsive } from "constants/spaces";
 import { colors } from "constants/colors";
 import checkIcon from "assets/checkIcon.svg";
