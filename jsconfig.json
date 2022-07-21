@@ -2,10 +2,11 @@
     "compilerOptions": {
         "baseUrl": "src",
         "paths": {
-            "components/*": ["./components"],
+            "shared/*": ["./components/shared"],
+            "pages/*": ["./components/pages"],
             "constants/*": ["./constants/*"],
             "hooks/*": ["./hooks/*"],
-            "pages/*": ["./pages/*"],
+            "views/*": ["./views/*"],
             "layouts/*": ["./layouts/*"],
             "assets/*": ["./assets/*"]
         }
